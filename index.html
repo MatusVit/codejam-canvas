@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CodeJam Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="app_bar_top">
+        <div class="icon-menu icon_aria">
+            <img class="icon" src="assets/images/icon-menu.svg" alt="icon-menu">
+        </div>
+
+        <h1 class="app_bar_top-title">CodeJam - Pallete</h1>
+
+        <div class="icon-more_vert icon_aria">
+            <img class="icon" src="assets/images/icon-more-vert.svg" alt="icon-menu">
+        </div>
+    </header>
+
+
+<section class="wrapper-main">
+        <aside class="left_toolbar">
+            <div class="left_toolbar-tools sheet">
+                <ul class="sheet_list">
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <img src="assets/images/icon-paint.svg" alt="icon">
+                        </div>
+                        <div class="sheet_list-item-title">Paint bucket</div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <img src="assets/images/icon-eye-dropper.svg" alt="icon">
+                        </div>
+                        <div class="sheet_list-item-title">Choose color</div>
+                    </li>
+                    <li>
+                        <div class="sheet_list-divider"></div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <img src="assets/images/icon-move.svg" alt="icon">
+                        </div>
+                        <div class="sheet_list-item-title">Move</div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <img src="assets/images/icon-transform.svg" alt="icon">
+                        </div>
+                        <div class="sheet_list-item-title">Transform</div>
+                    </li>
+                </ul>
+            </div>
+           
+            <div class="left_toolbar-colors sheet">
+                <ul class="sheet_list">
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <div class="color-icon color-current"></div>
+                        </div>
+                        <div class="sheet_list-item-title">Current color</div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <div class="color-icon color-prev"></div>
+                        </div>
+                        <div class="sheet_list-item-title">Prev color</div>
+                    </li>
+                    <li>
+                        <div class="sheet_list-divider"></div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <div class="color-icon color-red"></div>
+                        </div>
+                        <div class="sheet_list-item-title">red</div>
+                    </li>
+                    <li class="sheet_list-item">
+                        <div class="sheet_list-item-icon">
+                            <div class="color-icon color-blue"></div>
+                        </div>
+                        <div class="sheet_list-item-title">blue</div>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    
+    
+        <section class="section-canvas">
+            <canvas id="canvas" height="512px" width="512px"></canvas>
+        </section>
+        <aside class="right_toolbar"></aside>
+</section>
+
+
+
+</body>
+
+</html>
